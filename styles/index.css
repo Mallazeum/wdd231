@@ -1,0 +1,170 @@
+header, footer {
+    color: #3D1C02;
+    background-color: #FAF3E0;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid #C75000;
+    border-radius: 25px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #E8D5B7;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 99%;
+    margin: 0 auto;
+}
+
+header nav a {
+    color: 	#522E1A;
+    text-decoration: none;
+    font-size: medium;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: #9E2A2B;
+}
+
+section {
+    border: 1px solid #C75000;
+    background-color: #FAF3E0;
+    color: #3D1C02;
+    border-radius: 10px;
+    margin: 5px auto;
+    width: 100%;
+}
+
+section h3 {
+    background-color: #E8D5B7;
+    color: 	#522E1A;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.homeTown{
+    text-align: center;
+}
+
+.homeTown img {
+    margin: 0 auto;
+    
+}
+
+.certificate {
+    text-align: center;
+}
+
+.certificate div p {
+    background-color: #E8D5B7;
+    color: 	#522E1A;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.complete::before, .complete::after {
+    content: '⭐';
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header img {
+    border-radius: 100%;
+}
+
+#classes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1rem auto;
+    gap: 10px;
+}
+
+#credits {
+    grid-column: 2 / 3;
+}
+
+#sort {
+    border-bottom: 1px solid #C75000;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#sort button {
+    width: 10rem;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+    cursor: pointer;
+ 	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+    text-decoration: none;
+    font-size: large;
+}
+.navigation a:hover {
+	font-weight: 700;
+    text-decoration: underline;
+}
+
+.open a {
+	display: block;
+}
+
+@media (min-width: 37.5rem){
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    #menu {
+		display: none;
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+}
