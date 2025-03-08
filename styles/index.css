@@ -7,27 +7,6 @@ header, footer {
     border-radius: 25px;
 }
 
-header nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: #E8D5B7;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    width: 99%;
-    margin: 0 auto;
-}
-
-header nav a {
-    color: 	#522E1A;
-    text-decoration: none;
-    font-size: medium;
-}
-
-header nav a:hover {
-    text-decoration: underline;
-    color: #9E2A2B;
-}
-
 section {
     border: 1px solid #C75000;
     background-color: #FAF3E0;
@@ -130,6 +109,12 @@ section h3 {
 	flex-direction: column;
 	justify-content: space-evenly;
 	list-style: none;
+    justify-content: space-around;
+    background-color: #E8D5B7;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 99%;
+    margin: 0 auto;
 }
 
 .navigation a {
@@ -137,10 +122,12 @@ section h3 {
 	padding: 1rem;
 	text-align: center;
     text-decoration: none;
-    font-size: large;
+    color: 	#522E1A;
+    font-size: medium;
 }
 .navigation a:hover {
 	font-weight: 700;
+    color: #9E2A2B;
     text-decoration: underline;
 }
 
