@@ -1,0 +1,25 @@
+h1, h2 {
+    color: darkblue;
+}
+
+header, footer {
+    text-align: center;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 95%;
+    margin: 10px auto;
+}
+
+section {
+    background-color: aliceblue;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 10px;
+}

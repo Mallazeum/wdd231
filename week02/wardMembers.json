@@ -1,0 +1,28 @@
+{
+    "family_name": "Shmoe",
+    "move_in_date": "2025-03-13",
+    "number_of_people": 4,
+    "visited_by_bishopbric": true,
+    "family_members": [
+        {
+            "name": "Joe Shmoe",
+            "gender": "Male",
+            "birthday": "1990-09-27"
+        },
+        {
+            "name": "Julia Schmoe",
+            "gender": "Female",
+            "birthday": "1992-02-19"
+        },
+        {
+            "name": "James Schmoe",
+            "gender": "Male",
+            "birthday": "2017-10-13"
+        },
+        {
+            "name": "Joanna Shmoe",
+            "gender": "Female",
+            "birthday": "2020-02-29"
+        }
+    ]
+}
