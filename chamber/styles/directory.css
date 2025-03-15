@@ -1,6 +1,8 @@
 header, footer {
     border: 2px solid black;
     border-radius: 25px;
+    margin: 5px;
+    background-color: aliceblue;
 }
 
 header {
@@ -39,6 +41,7 @@ section {
     border: 1px solid black;
     border-radius: 5px;
     margin: 5px;
+    background-color: aliceblue;
 }
 
 .grid {
