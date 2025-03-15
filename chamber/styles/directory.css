@@ -6,7 +6,13 @@ header, footer {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+header img {
+    border-radius: 100%;
+    width: 100px;
+    height: auto;
 }
 
 main {
