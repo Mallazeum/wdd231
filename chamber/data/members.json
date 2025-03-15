@@ -1,0 +1,60 @@
+{
+    "companies" : [
+    {
+        "name": "Timbukdo Laundry",
+        "address": "15 Overthere Street",
+        "phoneNumber": "(123) 456-7890",
+        "websiteURL": "timbukdolaundry.com",
+        "image": "https://t4.ftcdn.net/jpg/00/47/90/55/240_F_47905511_c9wqzb5Hc3wsaQEbEcYzj70OJKcFIXPk.jpg",
+        "membershipLevel": 1
+    },
+    {
+        "name": "The Wandering Fork",
+        "address": "1283 Maplewood Lane",
+        "phoneNumber": "(312) 555-8472",
+        "websiteURL": "twfork.com",
+        "image": "https://t4.ftcdn.net/jpg/03/90/68/13/240_F_390681352_BsFsBsRqL4HzilaQDe7cxeq1pl7lreSs.jpg",
+        "membershipLevel": 2
+    },
+    {
+        "name": "Pie Society",
+        "address": "742 Silvercrest Avenue",
+        "phoneNumber": "(415) 555-1296",
+        "websiteURL": "piesociety.com",
+        "image": "https://t3.ftcdn.net/jpg/09/70/34/16/240_F_970341603_L9i3KB7Tit6i6J0h8rHWCrOXx1k0Mo75.jpg",
+        "membershipLevel": 3
+    },
+    {
+        "name": "The Quill & Page",
+        "address": "301 Harborview Drive",
+        "phoneNumber": "(702) 555-6734",
+        "websiteURL": "quillandpage.com",
+        "image": "https://t3.ftcdn.net/jpg/09/81/19/26/240_F_981192657_oXxfhwxD1pzBAKbfBHyLvEizB9NQbPqz.jpg",
+        "membershipLevel": 2
+    },
+    {
+        "name": "Game Grounds",
+        "address": "5678 Hollow Oak Road",
+        "phoneNumber": "(818) 555-2049",
+        "websiteURL": "gamegrounds.com",
+        "image": "https://t4.ftcdn.net/jpg/10/53/46/15/240_F_1053461575_5Oxi6vpLIOjpEXyuMgTc6vTxpNrnnRac.jpg",
+        "membershipLevel": 1
+    },
+    {
+        "name": "The Rusty Reel",
+        "address": "919 West Elm Street",
+        "phoneNumber": "(607) 555-9813",
+        "websiteURL": "rustreel.com",
+        "image": "https://t4.ftcdn.net/jpg/09/01/43/81/240_F_901438112_uYU7EZWfSk1kY6kM7tkWn5NODmBmzU8L.jpg",
+        "membershipLevel": 1
+    },
+    {
+        "name": "SunnyView Optical",
+        "address": "384 Sunrise Boulevard",
+        "phoneNumber": "(954) 555-3367",
+        "websiteURL": "sunnyview.com",
+        "image": "https://t4.ftcdn.net/jpg/01/60/45/31/240_F_160453150_JMXV5pUGgzV8EpuWRel5KSuDrfMZYZ2h.jpg",
+        "membershipLevel": 3
+    }
+    ]
+}
