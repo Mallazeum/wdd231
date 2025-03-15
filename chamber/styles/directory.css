@@ -99,10 +99,6 @@ section {
 	justify-content: space-evenly;
 	list-style: none;
     justify-content: space-around;
-    background-color: #E8D5B7;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    width: 99%;
     margin: 0 auto;
 }
 
