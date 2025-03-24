@@ -1,0 +1,59 @@
+section {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+section h2 {
+    padding-left: 15px;
+    margin-top: 0;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.hero {
+    position: relative;
+}
+
+#keynote {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#heroimg {
+    width: 100%;
+    height: auto;
+}
+
+.weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.weather h2 {
+    grid-column: span 2;
+}
+
+.forecast p {
+    font-family: monospace;
+    white-space: pre;
+    margin: 10px;
+}
+
+#businesses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+
+.grid > :first-child {
+    grid-column: span 2;
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timbuktu Chamber of Commerce - Directory</title>
+    <title>Timbuktu Chamber of Commerce</title>
     <meta name="description" content="A resource hub for businesses in the city of Timbuktu.">
     <meta name="author" content="Johnathan Larson">
     <link rel="icon" href="images/favicon.ico"> 
@@ -13,10 +13,11 @@
     <meta property="og:url" content="https://mallazeum.github.io/wdd231/chamber/directory.html">
     <script src="../scripts/getdates.js" defer></script>
     <script src="../scripts/hambutton.js" defer></script>
-    <script src="scripts/bussinesses.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
     <header>
@@ -27,17 +28,45 @@
         </div>
         <button id="menu"></button>
         <nav class="navigation">
-            <a href="index.html">Home</a>
-            <a href="directory.html" id="active">directory</a>
+            <a href="index.html" id="active">Home</a>
+            <a href="directory.html">directory</a>
             <a href="">Join</a>
             <a href="">discover</a>
         </nav>
     </header>
     <main>
-        <h1>Timbuktu Chamber of Commerce - Directory</h1>
-        <button id="grid"><img src="images/grid.svg" alt="grid"></button>
-        <button id="list"><img src="images/list.svg" alt="list"></button>
-        <div id="cards"></div>
+        <div class="hero">
+            <img id="heroimg" src="https://media.istockphoto.com/id/132031519/photo/djenn%C3%A9.jpg?s=612x612&w=0&k=20&c=mIJTZNMZYOFJfjs4ibDF1F6RoEyhVZh4zICcD7gGNUw=" alt="The Great Mosque at Djenne in Mali - near Timbuktu. It is the largest mud building in the world">
+            <button id="keynote"><a href="">Keynote Tickets</a></button>
+        </div>
+        <h1>Home</h1>
+        <div class="grid">
+            <section class="events">
+                <h2>Events</h2>
+            </section>
+            <section class="weather">
+                <h2>Current Weather</h2>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+                <div>
+                    <p id="current-temp"></p>
+                    <p id="high"></p>
+                    <p id="low"></p>
+                    <p id="humidity"></p>
+                    <p id="sunrise"></p>
+                    <p id="sunset"></p>
+                </div>
+            </section>
+            <section class="forecast">
+                <h2>Weather Forecast</h2>
+                <div id="today"></div>
+            </section>
+        </div>
+        <div id="businesses">
+
+        </div>
     </main>
     <footer>
         <div>
