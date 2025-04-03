@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timbuktu Chamber of Commerce - Join</title>
+    <meta name="description" content="A resource hub for businesses in the city of Timbuktu.">
+    <meta name="author" content="Johnathan Larson">
+    <link rel="icon" href="images/favicon.ico"> 
+    <meta property="og:title" content="Timbuktu Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://t4.ftcdn.net/jpg/08/59/48/39/240_F_859483918_Ll7CNIFyPMhl5hUmeRdGaC3sf52yFIY4.jpg">
+    <meta property="og:url" content="https://mallazeum.github.io/wdd231/chamber/directory.html">
+    <script src="../scripts/getdates.js" defer></script>
+    <script src="../scripts/hambutton.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/join.css">
+</head>
+<body>
+    <header>
+        <img src="images/timbuktuMap.jpg" alt="a stylized icon for the tibuktu chamber of commerce">        
+        <div>
+            <h1>Timbuktu</h1>
+            <p>Chamber of Commerce</p>
+        </div>
+        <button id="menu"></button>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="directory.html">directory</a>
+            <a href="join.html" id="active">Join</a>
+            <a href="">discover</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Timbuktu Chamber of Commerce - Join</h1>
+        <div id="grid">
+            <form action="thankyou.html" method="get" onsubmit="setTimestamp()">
+                <label for="fName">First Name:</label>
+                <input type="text" required id="fName" name="fName" title="First Name" autocomplete="given-name">
+
+                <label for="lName">Last Name:</label>
+                <input type="text" required id="lName" name="lName" title="Last Name" autocomplete="family-name">
+
+                <label for="title">Organization Title:</label>
+                <input type="text" id="title" name="title" title="Organization Title" pattern="[A-Za-z\- ]{7,}" autocomplete="organization-title">
+
+                <label for="email">Email Address:</label>
+                <input type="email" required id="email" name="email" title="email" autocomplete="email" placeholder="name@website.com">
+
+                <label for="phone">Mobile Phone Number:</label>
+                <input type="tel" required id="phone" name="phone" title="Mobile phone number" autocomplete="tel">
+
+                <label for="orgName">Business/Organization's Name:</label>
+                <input type="text" required id="orgName" name="orgName" title="Business/Organization Name" autocomplete="organization">
+
+                <p>Membership Level</p>
+
+                <label for="np">NP Membership</label>
+                <input type="radio" id="np" name="mLevel" value="Non-Profit Membership">
+
+                <label for="bronze">Bronze Memberrship</label>
+                <input type="radio" id="bronze" name="mLevel" value="Bronze Membership">
+
+                <label for="silver">Silver Membership</label>
+                <input type="radio" id="silver" name="mLevel" value="Silver Membership">
+
+                <label for="gold">Gold Membership</label>
+                <input type="radio" id="gold" name="mLevel" value="Gold Membership">
+
+                <label for="description">Business/Organization Description:</label>
+                <textarea id="description" name="description" title="Business/Organization Description"></textarea>
+
+                <input type="hidden" id="timeStamp" name="timeStamp">
+
+                <label for="submit">Submit Join Request</label>
+                <input type="submit" id="submit" name="submit">
+            </form>
+            <section>
+                <h2>Non-Prophet Level</h2>
+                <button class="open" id="np">Display Details</button>
+                <dialog class="np"></dialog>
+            </section>
+            <section>
+                <h2>Bronze Level</h2>
+                <button class="open" id="bronze">Display Details</button>
+                <dialog class="bronze"></dialog>
+            </section>
+            <section>
+                <h2>Silver Level</h2>
+                <button class="open" id="silver">Display Details</button>
+                <dialog class="silver"></dialog>
+            </section>
+            <section>
+                <h2>Gold Level</h2>
+                <button class="open" id="gold">Display Details</button>
+                <dialog class="gold"></dialog>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p class="bold">Timbuktu Chamber of Commerce</p>
+            <p id="contact">10 Rue De La Paix<br>Timbuktu, Mali 999<br>info@timbuktucc.org<br>(223) 555-2300</p>
+        </div>
+        <nav>
+            <a href="https://www.youtube.com/"><img src="images/youtube.svg" alt="Youtube"></a>
+            <a href="https://twitter.com"><img src="images/twitter.svg" alt="Twitter"></a>
+            <a href="https://www.linkedin.com/"><img src="images/linkedin.svg" alt="LinkedIN"></a>
+        </nav>
+        <p>WDD 231 Class Project<br>Johnathan Larson<br>©<span id="currentyear"></span> Timbuktu Chamber of Commerce<br><span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

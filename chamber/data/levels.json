@@ -1,0 +1,59 @@
+{
+    "levels" : [
+        {
+            "id" : "np",
+            "name" : "Non-Profit",
+            "price" : "$0",
+            "benefits" : [
+                "Basic directory listing on the Chamber’s website",
+                "Access to networking events at a discounted rate",
+                "Eligibility for community partnership programs",
+                "Free or discounted business workshops and webinars",
+                "Limited social media shoutouts (e.g., 1-2 per year)",
+                "Ability to participate in Chamber advocacy efforts"
+            ]
+        },
+        {
+            "id" : "bronze",
+            "name" : "Bronze",
+            "price" : "$5 a month",
+            "benefits" : [
+                "Enhanced directory listing (includes logo and business description)",
+                "Free access to networking events",
+                "Featured in Chamber newsletter (once per year)",
+                "Opportunity to offer exclusive Chamber member discounts",
+                "Invitation to Chamber luncheons and educational sessions",
+                "Social media promotion (quarterly)"
+            ]
+        },
+        {
+            "id" : "silver",
+            "name" : "Silver",
+            "price" : "$10 a month",
+            "benefits" : [
+                "Priority placement in Chamber directory",
+                "Business highlighted in Chamber emails (bi-annual)",
+                "Speaking opportunities at networking events",
+                "Ability to host a ribbon-cutting ceremony",
+                "Featured in Chamber's annual business spotlight",
+                "Sponsorship opportunities at Chamber events",
+                "More frequent social media promotions (monthly)"
+            ]
+        },
+        {
+            "id" : "gold",
+            "name" : "Gold",
+            "price" : "$20 a month",
+            "benefits" : [
+                "Top-tier directory placement (priority ranking & featured listing)",
+                "Business spotlight in Chamber publications & website",
+                "VIP access to Chamber networking events",
+                "Customized business promotion plan with Chamber marketing team",
+                "Exclusive advertising opportunities on Chamber website & newsletters",
+                "Free or discounted event sponsorships",
+                "One dedicated email blast to all Chamber members",
+                "Meetings with local government officials to discuss business advocacy"
+            ]
+        }
+    ]
+}

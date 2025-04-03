@@ -1,0 +1,75 @@
+section, form {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .5rem;
+    margin: .5rem;
+    background-color: aliceblue;
+}
+
+dialog {
+    border-radius: 25px;
+    text-align: left;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+dialog button {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+::backdrop {
+    background-color: rgb(0 0 0 / 0.5);
+}
+
+section {
+    text-align: center;
+    padding-top: 0;
+}
+
+.open {
+    animation: bounce 5s infinite alternate ease-in-out;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+form p {
+    grid-column: span 2;
+}
+
+label {
+    margin-left: 1rem;
+    align-self: center;
+}
+
+input, textarea {
+    width: 80%;
+}
+
+textarea {
+    height: 4rem;
+}
+
+@media (min-width: 37.5rem){
+    #grid {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    form {
+        grid-row: span 4;
+    }
+}

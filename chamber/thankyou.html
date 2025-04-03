@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timbuktu Chamber of Commerce - Directory</title>
+    <title>Timbuktu Chamber of Commerce - Thank You</title>
     <meta name="description" content="A resource hub for businesses in the city of Timbuktu.">
     <meta name="author" content="Johnathan Larson">
     <link rel="icon" href="images/favicon.ico"> 
@@ -13,10 +13,10 @@
     <meta property="og:url" content="https://mallazeum.github.io/wdd231/chamber/directory.html">
     <script src="../scripts/getdates.js" defer></script>
     <script src="../scripts/hambutton.js" defer></script>
-    <script src="scripts/bussinesses.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/join.css">
 </head>
 <body>
     <header>
@@ -28,16 +28,23 @@
         <button id="menu"></button>
         <nav class="navigation">
             <a href="index.html">Home</a>
-            <a href="directory.html" id="active">directory</a>
-            <a href="join.html">Join</a>
+            <a href="directory.html">directory</a>
+            <a href="join.html" id="active">Join</a>
             <a href="">discover</a>
         </nav>
     </header>
     <main>
-        <h1>Timbuktu Chamber of Commerce - Directory</h1>
-        <button id="grid"><img src="images/grid.svg" alt="grid"></button>
-        <button id="list"><img src="images/list.svg" alt="list"></button>
-        <div id="cards"></div>
+        <h1>Thank You for joining</h1>
+        <section>
+            <p><strong>Name:</strong> <span id="first"></span> <span id="last"></span></p>
+            <p><strong>Title:</strong> <span id="title"></span></p>
+            <p><strong>Email:</strong> <span id="email"></span></p>
+            <p><strong>Phone Number:</strong> <span id="phone"></span></p>
+            <p><strong>Business/Organization Name:</strong> <span id="org"></span></p>
+            <p><strong>Membership Level:</strong> <span id="level"></span></p>
+            <p><strong>Description:</strong> <span id="desc"></span></p>
+            <p><strong>Date:</strong> <span id="timeStamp"></span></p>
+        </section>
     </main>
     <footer>
         <div>
