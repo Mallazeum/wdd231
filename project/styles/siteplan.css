@@ -1,0 +1,24 @@
+* {
+    font-family: 'Cabin', sans-serif;
+}
+
+#primary {
+    background-color: #D9E1EC;
+    color: #020C1B;
+}
+
+#secondary {
+    background-color: #536DFE;
+    color: #0D2B2F;
+}
+
+a {
+    background-color: #020C1B;
+    color: #D9E1EC;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F05454;
+    text-decoration: underline;
+}
