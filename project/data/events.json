@@ -1,0 +1,39 @@
+{
+    "events" : [
+        {
+            "name" : "MTG On-Demand Event",
+            "month" : "April",
+            "date" : 4,
+            "time" : "6pm",
+            "price" : 0
+        },
+        {
+            "name" : "MTG Dragonstorm PR Sealed Event",
+            "month" : "April",
+            "date" : 5,
+            "time" : "2pm",
+            "price" : 35
+        },
+        {
+            "name" : "MTG Draft Night Tarkir: Dragonstorm",
+            "month" : "April",
+            "date" : 11,
+            "time" : "5pm",
+            "price" : 25
+        },
+        {
+            "name" : "Pokemon TCG League Pauper",
+            "month" : "April",
+            "date" : 17,
+            "time" : "7pm",
+            "price" : 5
+        },
+        {
+            "name" : "Pokemon TCG League Challenge",
+            "month" : "April",
+            "date" : 24,
+            "time" : "7pm",
+            "price" : 15
+        }
+    ]
+}

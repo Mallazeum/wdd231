@@ -1,0 +1,52 @@
+{
+    "places" : [
+        {
+            "name" : "Djinguereber Mosque",
+            "address" : "",
+            "image" : "",
+            "description" : "Built in 1327 by order of Mansa Musa, this mosque is a prime example of Sudano-Sahelian architecture and one of the oldest in continuous use in Africa."
+        },
+        {
+            "name" : "Sankoré University and Mosque",
+            "address" : "",
+            "image" : "",
+            "description" : "Part of the historic Sankoré Madrasah, it was once a major center of Islamic scholarship, attracting scholars from across the Islamic world."
+        },
+        {
+            "name" : "Sidi Yahya Mosque",
+            "address" : "",
+            "image" : "",
+            "description" : "Completed in 1440, this mosque is known for its spiritual significance and is part of Timbuktu’s historic Islamic education institutions."
+        },
+        {
+            "name" : "Ahmed Baba Institute",
+            "address" : "",
+            "image" : "",
+            "description" : "A center dedicated to preserving thousands of ancient manuscripts that reflect the city’s scholarly past."
+        },
+        {
+            "name" : "Timbuktu Manuscripts",
+            "address" : "",
+            "image" : "",
+            "description" : "Collections housed in various libraries and private collections across the city, featuring works on astronomy, law, medicine, and theology."
+        },
+        {
+            "name" : "Tomb of Askia Mohamed",
+            "address" : "",
+            "image" : "",
+            "description" : "A UNESCO World Heritage Site connected to the Songhai Empire and its Islamic leadership, highlighting the region’s historical ties."
+        },
+        {
+            "name" : "Timbuktu Museum",
+            "address" : "",
+            "image" : "",
+            "description" : "A small but informative museum with artifacts and exhibits about the city’s history, culture, and manuscripts."
+        },
+        {
+            "name" : "House of Explorer René Caillié",
+            "address" : "",
+            "image" : "",
+            "description" : "The home where the French explorer stayed when he became the first European to visit Timbuktu and return alive in 1828."
+        }
+    ]
+}

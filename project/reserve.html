@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civ's Gaming Citadel - Reservation</title>
+    <meta name="description" content="A reservation page for Civ's Gaming Citadel built for WDD131 by Johnathan Larson">
+    <meta name="author" content="Johnathan Larson">
+    <link rel="stylesheet" href="styles/reserve.css">
+    <script src="scripts/project.js" type="module"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Civ's Gaming Citadel Logo">
+        <h1>Civ's Gaming Citadel</h1>
+        <button id="menu"></button>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="calendar.html">Calendar</a>
+            <a href="reserve.html">Reservation</a>
+        </nav>
+    </header>
+    <main>
+        <form id="userForm" action="thankyou.html" method="get">
+            <label for="fName" class="required">First Name:</label>
+            <input type="text" id="fName" name="fName" required>
+
+            <label for="lName" class="required">Last Name</label>
+            <input type="text" id="lName" name="lName" required>
+
+            <label for="phone" class="required">Phone</label>
+            <input type="tel" id="phone" name="phone" required pattern="^\(\d{3}\) \d{3}-\d{4}$" placeholder="(123) 456-7890">
+
+            <p class="required">Room to Reserve:</p>
+            <div id="radioButtons">
+                <div class="radioGroup">
+                    <input type="radio" id="dnd" name="room" value="D&D Room" required>
+                    <label for="dnd">D&D Room</label>
+                </div>
+                <div class="radioGroup">
+                    <input type="radio" id="party" name="room" value="Party Room">
+                    <label for="party">Party Room</label>
+                </div>
+                <div class="radioGroup">
+                    <input type="radio" id="pc" name="room" value="PC Room">
+                    <label for="pc">PC Game Room</label>
+                </div>
+                <div class="radioGroup">
+                    <input type="radio" id="whole" name="room" value="Whole Store">
+                    <label for="whole">Whole Store</label>
+                </div>
+            </div>
+            
+            <label for="reserveDate" class="required">Date of Reservation: </label>
+            <input type="date" id="reserveDate" name="reserveDate" required>
+
+            <button type="submit">Submit Reservation</button>
+        </form>
+        <div id="output"></div>
+    </main>
+    <footer>
+        <p>©️<span id="currentyear"></span> 🎮 Johnathan Larson 🎮 Utah</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

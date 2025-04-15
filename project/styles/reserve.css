@@ -1,0 +1,124 @@
+* {
+    font-family: 'Cabin', sans-serif;
+}
+
+header, footer{
+    display: flex;
+    gap: 30px;
+    padding: auto;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #D9E1EC;
+    color: #020C1B;
+    border: 2px solid #020C1B;
+}
+
+a {
+    color: #020C1B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F05454;
+    text-decoration: underline;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5px auto;
+    width: 95%;
+    padding: 1rem;
+    background-color: #D9E1EC;
+    color: #020C1B;
+    border: 2px solid #020C1B;
+    border-radius: 25px;
+}
+section {
+    margin: 5px auto;
+    width: 95%;
+    padding: 1rem;
+    background-color: #D9E1EC;
+    color: #020C1B;
+    border: 2px solid #020C1B;
+    border-radius: 25px;
+    text-align: center;
+}
+
+input[type='text'],input[type='date'],button[type='submit'],input[type='tel'],#radioButtons {
+    width: 80%;
+    margin-left: 2rem;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #020C1B;
+    cursor: pointer;
+ 	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+    font-size: larger;
+}
+.navigation a:hover {
+	font-weight: 700;
+}
+
+.open a {
+	display: block;
+}
+
+.required::before{
+    content: '*';
+    color: red;
+}
+
+@media (min-width: 37.5em) {
+    #menu{
+        display: none;
+    }
+
+    .navigation {
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+}
